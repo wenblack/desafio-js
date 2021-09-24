@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+<h1 align="center">
+	<img alt="Logo" src="https://github.com/wenblack/desafio-js/blob/master/public/images/logo.png" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Desafio JS
+</h3>
 
-## Available Scripts
+<p align="center">Projeto criado com proposta de replicar uma Landig page de um PSD e migrar para um Framework JS, no caso eu escolhi o React</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wenblack/desafio-js">
 
-### `yarn start`
+  <a href="https://www.linkedin.com/in/wender-jose-santos-4b1473217/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Wender%20Barbosa-gree">
+  </a>
+   
+  <a href="https://github.com/wenblack/desafio-js/">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wenblack/desafio-js">
+  </a>
+  
+  <a href="https://github.com/wenblack/desafio-js/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/wenblack/desafio-js">
+  </a>
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/wenblack/desafio-js">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#-explicando-o-projeto">Explicaçao do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como Contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 👨🏻‍💻 Explicando o Projeto
 
-### `yarn test`
+- <p style="color: red;">Explicando o Projeto</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse desafio consiste em recortar o psd anexo nesse repositório para uma landing page.
 
-### `yarn build`
+Você pode usar criar os estilos na mão ou usar um framework já pronto como o Twitter Bootstrap.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A idéia é que a landing seja responsiva e deve conter todas as seções do PSD:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Header<br>
+- Section para funcionalidades<br>
+- Section de imagens<br>
+- Section do time<br>
+- Slider com depoimentos<br>
+- Section para call to action<br>
+- Footer<br><br>
+A dica aqui é que seu HTML e CSS seja bem escrito e com uma boa semântica :)<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias
 
-### `yarn eject`
+Tecnologias que escolhi para realizar o desafio:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [ReactJS](https://reactjs.org/)
+- [jQuery](https://jquery.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Eslint](https://eslint.org/)
+- [Font Awesome](https://fontawesome.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Getting started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Requisitos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Ter Yarn ou Node instalado no micro
 
-## Learn More
+**Clone o Projeto para a pasta que desejar**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ git clone https://github.com/wenblack/desafio-js.git && cd desafio-js
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Siga os seguintes passos**
 
-### Code Splitting
+```bash
+# Instale as Dependências
+$ yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Inicie o Cliente
+$ yarn start
+```
 
-### Analyzing the Bundle Size
+## 🤔 Como Contribuir
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Fork o esse repositório**
 
-### Making a Progressive Web App
+```bash
+$ gh repo fork wenblack/desafio-js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Siga os passos abaixo**
 
-### Advanced Configuration
+```bash
+$ git clone your-fork-url && cd NOME_DO_REPO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Crie um branch:
+$ git checkout -b nome-do-branch
 
-### Deployment
+# Faça um comit com as mudanças:
+$ git commit -m 'feat: Minha nova Feature'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+Depois do solicitaçao de pull request for finalizada, você pode deletar sua Branch.
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with 💜 &nbsp;by Wender Barbosa 👋 &nbsp;[Meu LinkedIn](https://www.linkedin.com/in/wender-jose-santos-4b1473217/)
