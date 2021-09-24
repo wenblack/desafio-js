@@ -35,8 +35,6 @@
 
 ## 👨🏻‍💻 Explicando o Projeto
 
-- <p style="color: red;">Explicando o Projeto</p>
-
 Esse desafio consiste em recortar o psd anexo nesse repositório para uma landing page.
 
 Você pode usar criar os estilos na mão ou usar um framework já pronto como o Twitter Bootstrap.
